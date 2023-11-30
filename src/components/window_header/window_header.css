@@ -1,0 +1,17 @@
+.window-header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--background-color);
+    border-bottom: 1rem solid var(--primary-color);
+    gap: 3rem;
+    padding: 2rem 2rem 3rem 2rem;
+    resize: both;
+}
+
+.stripes {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 1rem;
+}
